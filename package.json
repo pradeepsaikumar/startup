@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "chmod +x node_modules/.bin/vite && npx vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "lint": "eslint .",
-    "preview": "npx vite preview --host 0.0.0.0 --port $PORT"
+    "preview": "npx vite preview --host 0.0.0.0 --port $PORT",
+    "postinstall": "npm rebuild esbuild"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.2",
