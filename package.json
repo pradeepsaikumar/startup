@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "node ./node_modules/vite/bin/vite.js build",
     "lint": "eslint .",
-    "preview": "npx vite preview --host 0.0.0.0 --port $PORT",
+    "preview": "serve -s dist -l $PORT",
     "postinstall": "npm rebuild esbuild"
   },
   "dependencies": {
@@ -22,7 +22,8 @@
     "@tailwindcss/vite": "^4.1.13",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "vite": "^7.1.6"
+    "vite": "^7.1.6",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "eslint": "^9.35.0",
@@ -38,4 +39,3 @@
     "npm": "10.x"
   }
 }
-
