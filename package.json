@@ -5,23 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "chmod +x node_modules/.bin/vite && npx vite build",
     "lint": "eslint .",
     "preview": "npx vite preview --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
-    "vite": "^7.1.6",
     "@vitejs/plugin-react": "^5.0.2",
+    "axios": "^1.12.2",
+    "framer-motion": "^12.23.16",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.9.1",
-    "axios": "^1.12.2",
-    "framer-motion": "^12.23.16",
     "tailwindcss": "^4.1.13",
     "@tailwindcss/vite": "^4.1.13",
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6"
+    "postcss": "^8.5.6",
+    "vite": "^7.1.6"
   },
   "devDependencies": {
     "eslint": "^9.35.0",
@@ -37,3 +37,4 @@
     "npm": "10.x"
   }
 }
+
