@@ -39,6 +39,24 @@ export default function Home() {
       </motion.p>
 
       {/* --- Action Buttons --- */}
+      <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-6 z-10">
+        <motion.a
+          href="/our-team"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          className="px-6 py-3 bg-blue-600 hover:bg-blue-800 rounded-full text-lg font-semibold shadow-lg"
+        >
+          Meet Our Team
+        </motion.a>
+        <motion.a
+          href="/projects"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          className="px-6 py-3 bg-green-600 hover:bg-green-800 rounded-full text-lg font-semibold shadow-lg"
+        >
+          View Projects
+        </motion.a>
+      </div>
 
       {/* --- Core Services Grid --- */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 px-6 max-w-6xl z-10">
