@@ -5,16 +5,4 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://deeprapatit.onrender.com/#about</loc>
-  </url>
-  <url>
-    <loc>https://deeprapatit.onrender.com/#services</loc>
-  </url>
-  <url>
-    <loc>https://deeprapatit.onrender.com/#projects</loc>
-  </url>
-  <url>
-    <loc>https://deeprapatit.onrender.com/#contact</loc>
-  </url>
 </urlset>
